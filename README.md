@@ -1,39 +1,3 @@
-<h1 align="center">Perplexity-Inspired LLM Answer Engine</h1>
-<div>
-    <div align="center">
-        <a href="https://twitter.com/dev__digest">
-            <img src="https://img.shields.io/badge/X/Twitter-000000?style=for-the-badge&logo=x&logoColor=white" />
-        </a>
-        <a href="https://www.youtube.com/@developersdigest">
-            <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
-        </a>
-    </div>
-    <div align="center">
-    <a href="https://trendshift.io/repositories/8642" target="_blank"><img src="https://trendshift.io/api/badge/repositories/8642" alt="developersdigest%2Fllm-answer-engine | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-    </div>
-</div>
-<div align="center">
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjVodHcyZWd0MDJtd2RiN2xqbGdtOTdrYzZiMnhlMmZidDRzYm15dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PXkHjFlbgty03C6TAL/giphy.gif"><br>
-</div>
-
-This repository contains the code and instructions needed to build a sophisticated answer engine that leverages the capabilities of [Groq](https://www.groq.com/), [Mistral AI's Mixtral](https://mistral.ai/news/mixtral-of-experts/), [Langchain.JS](https://js.langchain.com/docs/), [Brave Search](https://search.brave.com/), [Serper API](https://serper.dev/), and [OpenAI](https://openai.com/). Designed to efficiently return sources, answers, images, videos, and follow-up questions based on user queries, this project is an ideal starting point for developers interested in natural language processing and search technologies.
-
-## YouTube Tutorials
-
-<div style="display: flex; justify-content: center; align-items: center;">
-    <a href="https://youtu.be/43ZCeBTcsS8">
-        <img src="https://img.youtube.com/vi/43ZCeBTcsS8/0.jpg" alt="Tutorial 2" style="width: 24%; height: auto;">
-    </a>
-    <a href="https://youtu.be/kFC-OWw7G8k">
-        <img src="https://img.youtube.com/vi/kFC-OWw7G8k/0.jpg" alt="Tutorial 1" style="width: 24%; height: auto;">
-    </a>
-    <a href="https://youtu.be/kV2U7ttqE-g">
-        <img src="https://img.youtube.com/vi/kV2U7ttqE-g/0.jpg" alt="Tutorial 3" style="width: 24%; height: auto;">
-    </a>
-    <a href="https://youtu.be/3_aNVu6EU3Y">
-        <img src="https://img.youtube.com/vi/3_aNVu6EU3Y/0.jpg" alt="Tutorial 4" style="width: 24%; height: auto;">
-    </a>
-</div>
 
 
 ## Technologies Used
@@ -140,45 +104,8 @@ Note: When 'useOllamaInference' is set to true, the model will be used for both 
 
 More info: https://ollama.com/blog/openai-compatibility
 
-### Roadmap
-
-- [] Add document upload + RAG for document search/retrieval
-- [] Add a settings component to allow users to select the model, embeddings model, and other parameters from the UI
-- [] Add support for follow-up questions when using Ollama
-- [Complete] Add support diffusion models (Fal.AI SD3 to start), accessible via '@ mention'
-- [Complete] Add AI Gateway to support multiple models and embeddings. (OpenAI, Azure OpenAI, Anyscale, Google Gemini & Palm, Anthropic, Cohere, Together AI, Perplexity, Mistral, Nomic, AI21, Stability AI, DeepInfra, Ollama, etc)
-```https://github.com/Portkey-AI/gateway```
-- [Complete] Add support for semantic caching to improve response times
-- [Complete] Add support for dynamic and conditionally rendered UI components based on the user's query
-
-![Example](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN284d3p5azAyNHpubm9mb2F0cnB6MWdtcTdnd2Nkb2d1ZnRtMG0yYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OMpt8ZbBsjphZz6mue/giphy.gif)
-
-- [Completed] Add dark mode support based on the user's system preference
-
-### Backend + Node Only Express API
-
-[Watch the express tutorial here](https://youtu.be/43ZCeBTcsS8) for a detailed guide on setting up and running this project.
-In addition to the Next.JS version of the project, there is a backend only version that uses Node.js and Express. Which is located in the 'express-api' directory. This is a standalone version of the project that can be used as a reference for building a similar API. There is also a readme file in the 'express-api' directory that explains how to run the backend version.
-
-### Upstash Redis Rate Limiting
-[Watch the Upstash Redis Rate Limiting tutorial here](https://youtu.be/3_aNVu6EU3Y) for a detailed guide on setting up and running this project.
-Upstash Redis Rate Limiting is a free tier service that allows you to set up rate limiting for your application. It provides a simple and easy-to-use interface for configuring and managing rate limits. With Upstash, you can easily set limits on the number of requests per user, IP address, or other criteria. This can help prevent abuse and ensure that your application is not overwhelmed with requests.
-
-## Contributing
-
-Contributions to the project are welcome. Feel free to fork the repository, make your changes, and submit a pull request. You can also open issues to suggest improvements or report bugs.
-
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under AIQ.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=developersdigest/llm-answer-engine&type=Date)](https://star-history.com/#developersdigest/llm-answer-engine&Date)
-
-I'm the developer behind Developers Digest. If you find my work helpful or enjoy what I do, consider supporting me. Here are a few ways you can do that:
-
-- **Patreon**: Support me on Patreon at [patreon.com/DevelopersDigest](https://www.patreon.com/DevelopersDigest)
-- **Buy Me A Coffee**: You can buy me a coffee at [buymeacoffee.com/developersdigest](https://www.buymeacoffee.com/developersdigest)
-- **Website**: Check out my website at [developersdigest.tech](https://developersdigest.tech)
-- **Github**: Follow me on GitHub at [github.com/developersdigest](https://github.com/developersdigest)
-- **Twitter**: Follow me on Twitter at [twitter.com/dev__digest](https://twitter.com/dev__digest)
